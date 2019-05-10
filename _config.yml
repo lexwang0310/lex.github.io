@@ -3,3 +3,21 @@ title: Lex's Blog
 description: 基于 jekyll 的 Github Pages 个人博客网站，技术的学习、总结、分享与>提升
 baseurl: ""
 url: "https://lexwang0310.github.io"
+github_profile: "https://github.com/lexwang0310"
+user: "lexwang"
+user_email: "erzhe1993@163.com"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+sass:
+  style: compressed
+future: true
